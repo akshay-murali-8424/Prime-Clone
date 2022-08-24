@@ -1,0 +1,268 @@
+body{
+    margin: 0%;
+    font-family:"Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    /* color: white; */
+    font-weight: 750;
+    background-color: #0f171e;
+}
+.nav{
+    background-color: #1b2530;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+.primelogo{
+    width: 8%;
+    margin-left: 3%;
+}
+.nav ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: -26px;
+}
+.nav li:hover{
+cursor: pointer;
+}
+.searchb{
+    padding-left: 864px;
+    height: 22px;
+    padding-top: 18px;
+}
+.searchb:hover{
+    cursor: pointer;
+}
+.user{
+    height: 30px;
+    padding-top: 14px;
+    padding-left: 13px;
+}
+.user:hover{
+    cursor: pointer;
+}
+.coverimage img{
+    width:100%;
+}
+.coverimage img:hover{
+cursor: pointer;
+}
+.continue{
+    /* background-color: #1b2530; */
+    margin-top: -20px;
+}
+.continue p{
+color: white;
+padding-top: 2rem;
+padding-left: 48px;
+/* font-weight: 800; */
+}
+.continue img{
+    width: 17%;
+}
+.movie-posters{
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-left: 3rem;
+    gap: 1rem;
+    transition: transform 600ms;
+    margin-bottom: 4rem;
+}
+.movie-posters::-webkit-scrollbar{
+    display: none;
+}
+.movie-posters img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.recommended{
+    margin-top: -4rem;
+    /* background-color: #1b2530; */
+}
+.recommended p{
+    padding-left: 48px;
+    padding-top: 2rem;
+    color: white;
+}
+.recommended img{
+    width: 17%;
+}
+.language{
+    /* background-color: #1b2530; */
+    margin-top: -4rem;
+}
+.language p{
+    padding-left: 48px;
+    padding-top: 2rem;
+    color: white;
+}
+.langcategory{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.langcategory img{
+    width: 8%;
+    border-radius: 5%;
+}
+.langcategory img:hover{
+    cursor: pointer;
+}
+.top10{
+    display: flex;
+    /* background-color: #1b2530; */
+    position: relative;
+
+}
+.logo{
+    margin-left: 108px;
+    margin-top: 60px;
+}
+.top10 h2{
+    margin-top: 0px;
+    margin-left: 108px;
+    color: white;
+}
+.shamshera{
+    margin-left: 444px;
+    margin-top: 2rem;
+    z-index: -1;
+}
+.gradient{
+    top: 32px;
+    width: 20%;
+    height: 453px;
+    position: absolute;
+    right: 39rem;
+    background-image: linear-gradient(-91deg,transparent,#0f171e,#0f171e);
+    z-index: -1;
+}
+.gradient2{
+    right: 0rem;
+    width: 50%;
+    height: 15%;
+    position: absolute;
+    background-image: linear-gradient(180deg,transparent,#0f171e,#0f171e);
+    z-index: -1;
+    top: 26rem;
+}
+.titlename{
+    left: 109px;
+    color: white;
+    position: absolute;
+    font-size: 31px;
+    bottom: 7rem;
+}
+.desc{
+    position: absolute;
+    left: 110px;
+    position: absolute;
+    bottom: 103px;
+    color: white;
+}
+.ratingbox{
+    position: absolute;
+    left: 20rem;
+    bottom: 102px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.playbutton{
+    border: 0;
+    padding: 9px;
+    color: white;
+    background-color: #1399de;
+    left: 109px;
+    display: flex;
+    position: absolute;
+    bottom: 65px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.play{
+    font-size: 20px;
+    bottom: 2px;
+}
+.playbutton:hover{
+    opacity: 1;
+}
+.add button{
+    left: 216px;
+    background-color: #425265;
+    position: absolute;
+    bottom: 65px;
+    border-radius: 18px;
+    padding: 4px;
+    padding-top: 6px;
+    opacity: 0.8;
+    color: white;
+    border: 0;
+}
+.add button:hover{
+opacity: 1;
+}
+.Top10films{
+    display: flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    gap: 1rem;
+    transition: transform 600ms;
+    margin-bottom: 4rem;  
+    margin-top: -47px;
+    /* background-color: #1b2530; */
+}
+.Top10films::-webkit-scrollbar{
+    display: none;
+}
+.Top10films:hover{
+    cursor: pointer;
+}
+.Top10films img{
+    width: 17%;
+}
+.positions{
+    font-weight: 900;
+    margin-top: 7rem;
+    font-size: 27px;
+    color: white;
+}
+.academy{
+    padding-left: 48px;
+    padding-top: 2rem;
+    color: white;
+}
+.academyawards img{
+width: 17%;
+}
+.footer{
+    font-size: small;
+}
+.footerlogo{
+   display: flex;
+   justify-content: center;
+}
+.footerul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.footerul ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    color: #90dffe;
+    opacity: 0.8;
+}
+.footerul ul:hover{
+    opacity: 1;
+    cursor: pointer;
+
+}
+.footerul p{
+    color: #8197a4;
+}
